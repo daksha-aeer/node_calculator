@@ -38,7 +38,7 @@ app.get('/div', (req, res) => {
     res.send('divident is ' + c)
 })
 
-
+const PORT = process.env.PORT | 3000
 app.listen(3000, () => {
     console.log('Started')
 })
